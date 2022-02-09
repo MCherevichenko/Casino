@@ -86,7 +86,7 @@ const new_data: CardProps = {
 function App() {
   return (
     <div className="app">
-      <Card props={new_data}/>
+      <Card {...new_data}/>
     </div>
   );
 }
