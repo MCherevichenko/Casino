@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body p{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.card{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1110px;
+    min-height: 156px;
+    background-color: white;
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 34px;
+    flex-wrap: wrap;
+
+}
+
+.card_logo{
+    order: 0;
+    padding-top: 18px;
+}
+
+.logo_img{
+    max-width: 100px;
+    max-height: 48px;
+}
+
+.card_description{
+    max-width: 276px;
+    max-height: 84px;
+    order: 1;
+    padding-left: 32px;
+}
+
+.top_desk{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.mid_desk{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0F84EB;
+}
+
+.bot_desk{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color:#C90A0A;
+    max-width: 25px;
+    display: inline-block;
+}
+
+.last_desk{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: inline-block;
+    color: #CED0D5;
+}
+
+.card_games{
+    display: flex;
+    order: 2;
+    padding: 0 20px 18px;
+}
+
+.card_game{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 72px;
+    max-height: 44px;
+    text-align: center;
+}
+
+.game_item{
+    max-width: 72px;
+    max-height: 80px;
+    white-space: pre-wrap;
+    margin-left: 12px;
+    margin-right: 9px;
+}
+
+.card_rate{
+    display: flex;
+    order: 3;
+    /* padding-left: 32px; */
+}
+
+.circle{
+    padding-left: 32px;
+}
+
+.card_bonus{
+    padding-left: 32px;
+    order: 4;
+    text-align: center;
+}
+
+.card_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: inline-block;
+    color: #929292;
+    text-align: center;
+}
+
+.rate_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #A5A5AB;
+}
+
+.link_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0F84EB;
+    text-decoration-line: underline;
+}
+
+.button_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.min_depo_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #A5A5AB;
+    padding-top: 8px;
+}
+
+.bottom_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #CED0D4;
+    text-align: center;
+    padding: 16px 0 0 0;
+}
+
+.bonus_button{
+    display: flex;
+    min-width: 132px;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 40px;
+}
+
+.card_bottom{
+    order: 5;
+}
+
+.content{
+    display: flex;
+}
+
+ 
